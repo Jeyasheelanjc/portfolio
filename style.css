@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:wght@200;300;400;500&family=Nanum+Myeongjo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    /* border: 2px solid red; */
+}
+.navContainer{
+    width: 100%;
+}
+nav{
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    width: 30%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.name h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.navlinks{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0.5rem;
+}
+.navlinks a{
+    color: black;
+    font-size: 25px;
+}
+.navlinks a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.links{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 30px 0;
+}
+.links a{
+    color: black;
+    font-size: 25px;
+}
+.heroSection img{
+    width: 300px;
+    border: 2px solid rgba(102, 101, 101, 0.945);
+    border-radius: 450px;
+    background-color:gray;
+}
+.heroContainer{
+    display: flex;
+    gap: 3rem;
+    padding: 160px 100px;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.content h6{
+    font-size: 15px;
+    color: gray;
+    padding:  0 0 25px;
+}
+.content h2{
+    padding: 0 0 20px;
+    font-size: 45px;
+}
+.content h4{
+    padding: 0 0 30px;
+    color: gray;
+    font-size: 20px;
+}
+.btn{
+    border: 2px solid black;
+    padding: 14px 10px;
+    color: black;
+    border-radius: 20px;
+}
+.btn-1{
+    border: 2px solid black;
+    padding: 14px 10px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: black;
+
+}
+.btn:hover{
+    background-color: black;
+    color: #fff;
+}
+.btn-1:hover{
+    background-color: #fff;
+    color: black;
+}
+.aboutcard .cardHeader img{
+    width: 40px;
+}
+.aboutContainer{
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 480px; */
+}
+.about{
+    padding: 30px 0;
+}
+.aboutsection{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit,minmax(200px,3fr));
+    width: 85%;
+    gap: 2rem;
+    padding: 0 0 50px;
+    /* padding: 0 120px; */
+}
+.aboutcard{
+    width: 90%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 25px;
+}
+.aboutcard .cardHeader i{
+    font-size: 35px;
+}
+.aboutContainer{
+    padding: 30px 0;
+    margin-left: 11rem;
+}
+.about .content h5{
+    color: gray;
+    padding: 0 0 65px;
+    font-size: 20px;
+}
+.aboutcard .cardHeader h5{
+    padding: 10px 0 10px;
+}
+.aboutcard p{
+    color: gray;
+}
+.aboutcontent p{
+    width: 70%;
+    margin-left: 10rem;
+    text-align: center;
+    padding: 0 0 60px;
+}
+.con-1,.con-2{
+    display: flex;
+    gap: 7rem;
+    margin-left: 1rem;
+}
+.explore{
+    justify-content: center;
+    align-items: center;
+    padding: 100px 275px;
+}
+.expcard{
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 30px;
+}
+.expcard .cardBody{
+    display:flex;
+    gap: 5rem;
+}
+.expsection{
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit,minmax(250px)); */
+    /* width: 100%; */
+    /* border: 1px solid black; */
+    padding: 20px 0px;
+}
+.ch{
+    line-height: 2.6;
+    font-size: 25px;
+}
+.cp{
+    line-height: 1.5;
+}
+.cp h6{
+    font-size: 15px;
+}
+.explore .content{
+    text-align: center;
+}
+.explore .content h5{
+    color: gray;
+    padding: 0 0 35px;
+}
+.explore .content h2{
+    padding: 0 0 50px;
+}
+.expcard .cardHeader h3{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    padding: 0 0 30px;
+}
+.procard .cardheader img{
+    aspect-ratio: 16/9;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20px 0 20px 0;
+}
+.project .content h5{
+    color: gray;
+    padding: 0 0 20px;
+}
+.project{
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0 160px;
+}
+.prosection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2rem;
+    width: 80%;
+    text-align: center;
+
+
+}
+.procard{
+    width: 100%;
+    margin-left: 7rem;
+    border:  1px solid black;
+    padding: 35px 10px;
+    border-radius: 25px;
+}
+.procard .cardBody h3{
+    padding: 20px 0;
+    font-family: 'Josefin Sans', sans-serif;
+} 
+.procard .cardBody p{
+    padding: 0px 0 35px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.procard .btn{
+    padding: 10px;
+    margin-left: 1rem;
+}
+.clinks{
+    display: flex;
+    gap: 1rem;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px 20px;
+    width: 30%;
+    margin-left: 27rem;
+    text-align: center;
+}
+.clinks a{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contact{
+    padding: 70px 0 100px;
+}
+.clinks a:hover{
+    text-decoration: underline;
+}
+.contact h5{
+    color: gray;
+    font-size: 15px;
+    padding: 0 0 40px;
+}
+
+.endlinks{
+    display: flex;
+    gap: 4rem;
+   justify-content: center;
+   padding: 130px 0 30px;
+}
+.endlinks a{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+.endlinks a:hover{
+    text-decoration: underline;
+}
+footer p{
+    text-align:center;
+}
+.end{
+    margin-top: 8rem;
+}
